@@ -40,7 +40,7 @@ mongoose.connect(
     { 
         useUnifiedTopology: true,
         useNewUrlParser: true,
-    } as ConnectOptions,
+    },
     ()=>{console.log("DB Connected!!");
 });
 
